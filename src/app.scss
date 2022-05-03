@@ -1,0 +1,15 @@
+.weather__app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__days__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+}

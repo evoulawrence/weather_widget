@@ -1,0 +1,37 @@
+.day__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 3px -1px 10px -2px #000000; 
+    box-shadow: 3px -1px 10px -2px #000000;
+    border-radius: 10px;
+
+    &__weather {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        &__icon {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        span {
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    &__maxtemp, &__mintemp, &__windspeed {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
